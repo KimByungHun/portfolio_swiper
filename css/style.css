@@ -15,7 +15,7 @@ a {
   width: 100%;
   height: 100vh;
   position: relative;
-  background: #000;
+  background: lightcyan;
   overflow: hidden; }
   #wrap .swiper-wrapper {
     width: 100%;
