@@ -27,7 +27,28 @@
                 padding: 60px;
                 font: bold 50px/1 'lato';
                 color: #999;
+            }
+        }
+    }
 
+    .swiper-pagination{
+        position: absolute;
+        left: auto;
+        width: auto;
+        right: 10vw;
+        top: 10vh;
+
+        span{
+            width: auto;
+            height: auto;
+            background: transparent;
+            border-radius: 0px;
+            margin-left: 60px;
+            opacity: 0.7;
+
+            &.swiper-pagination-bullet-active{
+                opacity: 1;
+                font-weight: bold;
             }
         }
     }

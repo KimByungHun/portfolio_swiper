@@ -1,3 +1,4 @@
+const menu = ["Company","About","Information","Name"]
 const swiper = new Swiper("#wrap",{
     loop: true,
     slidesPerView: "auto",
@@ -13,14 +14,18 @@ const swiper = new Swiper("#wrap",{
 
     pagination:{
         el:".swiper-pagination",
-        clickable:true
+        type:"bullets",
+        clickable:true,
+        renderBullet:function(index,className){
+            return `<span class="${className}">${menu[index]}</span>`
+        }
     },
 
-    effect : "coverflow",
-    coverflowEffect:{
-        rotate:50,
-        stretch:-100,
-        depth:400,
-        slideShadows:false
-    }
+    // effect : "coverflow",
+    // coverflowEffect:{
+    //     rotate:50,
+    //     stretch:-100,
+    //     depth:400,
+    //     slideShadows:false
+    // }
 });
