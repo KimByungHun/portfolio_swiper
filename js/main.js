@@ -1,4 +1,4 @@
-const menu = ["Company","About","Information","Name"]
+const menu = ["ABOUT","PORTFOLIO:WEB","PORTFOLIO:OTHERS","CONTACT"]
 const swiper = new Swiper("#wrap",{
     loop: true,
     slidesPerView: "auto",
